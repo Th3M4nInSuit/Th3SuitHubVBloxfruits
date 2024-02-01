@@ -1,0 +1,89 @@
+--Th3SuitBlxFruits
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Th3SuitHub Blox Fruits - V1.0 🇧🇷", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "🇧🇷 - 🇧🇷!",
+	Content = "APROVEITE!",
+	Image = "rbxassetid://4483345998",
+	Time = 15
+})
+
+local Tab = Window:MakeTab({
+	Name = "Information",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Hub Information"
+})
+
+Tab:AddParagraph("🇧🇷 Information Hub 🇧🇷","Este hub é uma base de script pra Blox Fruits! Aproveite.")
+
+local Tab = Window:MakeTab({
+	Name = "🇧🇷 - BloxFruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "🇧🇷- SESSÃO DE SCRIPTS PARA BLOX FRUITS-🇧🇷"
+})
+
+Tab:AddButton({
+	Name = "MakimaHub - PC",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NightHub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/NIGHT-HUB"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "VectorHub",
+	Callback = function()
+	  _G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+	  print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "RedzHub - BloxFruits version",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AtomicHub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXHub/atomic-hub/main/atomic-hub.lua"))() 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MamaHub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/MAMAhub1/Mmahub/main/README.md"))() 
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Coming soon...!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
